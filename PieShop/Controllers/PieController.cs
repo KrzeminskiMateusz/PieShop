@@ -26,6 +26,8 @@ namespace PieShop.Controllers
 
             piesListViewModel.CurrentCategory = "Cheese cakes";
 
+            var sampleString = "SampleString";
+
             return View(piesListViewModel);
         }
 
